@@ -5,7 +5,7 @@ const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogni
 
 const PLAY_TRANSCRIPT = 'ver mehteri';
 const STOP_TRANSCRIPT = 'al mehteri';
-const MEHTER_TEXT = 'Ver mehteri ver düşmanların alayına gider mehter! Almanyaya ver mehteri ver. Çıldırırlar bunlar mehterden özellikle bu kısmından çıldırırlar bu siyonistler.';
+const MEHTER_TEXT = "Hiçbir şey değişmesin düzen aynen devam etsin böylece altta kalanın canı çıksın biz hep üstte olmaya devam edelim diyen phpcilere, Türkiye Cumhuriyeti'ne JavaScript ile ne işimiz var diyen içimizdeki batı putperestlerine verdim mehteri.";
 const STOP_MEHTER_TEXT = 'Aldim mehteri';
 const ON_START_TEXT = 'Lutfen mehteri verin';
 
