@@ -20,8 +20,6 @@ recognition.lang = 'tr-TR';
 recognition.continuous = true;
 recognition.interimResults = true;
 
-recognition.start();
-
 recognition.onstart = () => {
     status.innerText = ON_START_TEXT;
 }
@@ -45,3 +43,8 @@ recognition.onresult = (event) => {
 recognition.onaudioend = () => {
     status.innerText = ON_START_TEXT;
 }
+
+document.body.addEventListener('click', () => {
+    status.innerText = ON_START_TEXT;
+    recognition.start();
+}, {once: true});
